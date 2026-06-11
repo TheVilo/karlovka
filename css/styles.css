@@ -146,9 +146,18 @@ section{padding-block:clamp(56px,8vw,104px)}
 
 /* ============ HERO (home) ============ */
 .hero{
-  position:relative;min-height:100svh;display:flex;align-items:center;
-  background:linear-gradient(160deg,#15171C 0%,#23262E 55%,#2C1417 100%);
-  color:#fff;overflow:hidden;padding-top:90px;
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  /* Pridaná fotka na pozadie s tmavým filtrom pre čitateľnosť textu */
+  background: linear-gradient(rgba(21, 23, 28, 0.85), rgba(21, 23, 28, 0.85)), url('../chaos-soccer-gear-Cjfl8r_eYxY-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  overflow: hidden;
+  padding-top: 90px;
 }
 .hero::before{
   content:"";position:absolute;inset:0;
