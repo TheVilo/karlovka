@@ -17,7 +17,7 @@
   <div class="container nav">
     <a href="index.html" class="brand" aria-label="FKM Karlova Ves – domov"><span class="crest">KV</span><span>FKM Karlova Ves<small>Futbalový klub mládeže</small></span></a>
     <nav class="nav-links" aria-label="Hlavná navigácia">
-      <a href="o-klube.html">O klube</a><a href="timy.html" class="active">Tímy</a><a href="nabor.html">Nábor</a><a href="tabory.html">Tábory</a><a href="novinky.html">Novinky</a><a href="kontakt.html">Kontakt</a>
+      <a href="o-klube.html">O klube</a><div class="nav-dropdown"><a href="timy.html" class="nav-dropdown-trigger active">Kategórie<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px; margin-left: 4px;"><path d="M6 9l6 6 6-6"/></svg></a><div class="nav-dropdown-menu"><a href="kategoria-u6-u7.html">U6–U7 • Nábor</a><a href="kategoria-u8.html">U8 • Prípravka</a><a href="kategoria-u9.html">U9 • Prípravka</a><a href="kategoria.html">U10 • Prípravka</a><a href="kategoria-u11.html">U11 • Prípravka</a><div class="sep"></div><a href="kategoria-u12.html">U12 • Žiaci</a><a href="kategoria-u13.html">U13 • Žiaci</a><a href="kategoria-u14.html">U14 • Žiaci</a><a href="kategoria-u15.html">U15 • Žiaci</a><div class="sep"></div><a href="kategoria-u17.html">U17 • Dorast</a><a href="kategoria-u19.html">U19 • Dorast</a><div class="sep"></div><a href="kategoria-muzi.html">Muži • Senior</a></div></div><a href="nabor.html">Nábor</a><a href="tabory.html">Tábory</a><a href="novinky.html">Novinky</a><a href="kontakt.html">Kontakt</a>
     </nav>
     <div class="nav-cta nav-actions"><a href="nabor.html" class="btn btn-primary">Pridaj sa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
     <button class="burger" id="burger" aria-label="Otvoriť menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
@@ -25,7 +25,7 @@
 </header>
 <div class="mobile-menu" id="mobileMenu">
   <div class="mm-top"><span class="brand"><span class="crest">KV</span></span><button class="mm-close" id="mmClose" aria-label="Zavrieť menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-  <a href="o-klube.html">O klube</a><a href="timy.html">Tímy</a><a href="nabor.html">Nábor</a><a href="tabory.html">Tábory</a><a href="novinky.html">Novinky</a><a href="kontakt.html">Kontakt</a>
+  <a href="o-klube.html">O klube</a><a href="timy.html">Kategórie</a><a href="nabor.html">Nábor</a><a href="tabory.html">Tábory</a><a href="novinky.html">Novinky</a><a href="kontakt.html">Kontakt</a>
 </div>
 
 <section class="page-hero">
@@ -46,18 +46,18 @@
       <button class="tab" data-filter="muzi">Muži</button>
     </div>
     <div class="teams-grid" id="teamsGrid">
-      <div class="team-card reveal" data-group="muzi"><div class="age">Muži</div><div class="yr">Seniorský tím</div><span class="cat">Senior</span><div class="tmeta"><span><b>Súťaž:</b> seniorská</span><span><b>Tréningy:</b> 3× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="dorast"><div class="age">U19</div><div class="yr">Ročník 2007</div><span class="cat">Dorast</span><div class="tmeta"><span><b>Súťaž:</b> dorastenecká liga</span><span><b>Tréningy:</b> 3–4× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="dorast"><div class="age">U17</div><div class="yr">Ročník 2009</div><span class="cat">Dorast</span><div class="tmeta"><span><b>Súťaž:</b> dorastenecká liga</span><span><b>Tréningy:</b> 3–4× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="ziaci"><div class="age">U15</div><div class="yr">Ročník 2011</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> 1. liga žiaci</span><span><b>Tréningy:</b> 3× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="ziaci"><div class="age">U14</div><div class="yr">Ročník 2012</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> 1. liga žiaci</span><span><b>Tréningy:</b> 3× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="ziaci"><div class="age">U13</div><div class="yr">Ročník 2013</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> žiacka liga</span><span><b>Tréningy:</b> 3× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="ziaci"><div class="age">U12</div><div class="yr">Ročník 2014</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> žiacka liga</span><span><b>Tréningy:</b> 2–3× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="pripravky"><div class="age">U11</div><div class="yr">Ročník 2015</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> prípravkárska liga</span><span><b>Tréningy:</b> 2–3× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="pripravky"><div class="age">U10</div><div class="yr">Ročník 2016</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> prípravkárska liga</span><span><b>Tréningy:</b> 2× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="pripravky"><div class="age">U9</div><div class="yr">Ročník 2017</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> mini liga</span><span><b>Tréningy:</b> 2× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="pripravky"><div class="age">U8</div><div class="yr">Ročník 2018</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> mini liga</span><span><b>Tréningy:</b> 2× týždenne</span></div></div>
-      <div class="team-card reveal" data-group="pripravky"><div class="age">U6–U7</div><div class="yr">Ročník 2019+</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> nábor / základy</span><span><b>Tréningy:</b> 2× týždenne</span></div></div>
+      <a href="kategoria-muzi.html" class="team-card reveal" data-group="muzi"><div class="age">Muži</div><div class="yr">Seniorský tím</div><span class="cat">Senior</span><div class="tmeta"><span><b>Súťaž:</b> seniorská</span><span><b>Tréningy:</b> 3× týždenne</span></div></a>
+      <a href="kategoria-u19.html" class="team-card reveal" data-group="dorast"><div class="age">U19</div><div class="yr">Ročník 2007</div><span class="cat">Dorast</span><div class="tmeta"><span><b>Súťaž:</b> dorastenecká liga</span><span><b>Tréningy:</b> 3–4× týždenne</span></div></a>
+      <a href="kategoria-u17.html" class="team-card reveal" data-group="dorast"><div class="age">U17</div><div class="yr">Ročník 2009</div><span class="cat">Dorast</span><div class="tmeta"><span><b>Súťaž:</b> dorastenecká liga</span><span><b>Tréningy:</b> 3–4× týždenne</span></div></a>
+      <a href="kategoria-u15.html" class="team-card reveal" data-group="ziaci"><div class="age">U15</div><div class="yr">Ročník 2011</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> 1. liga žiaci</span><span><b>Tréningy:</b> 3× týždenne</span></div></a>
+      <a href="kategoria-u14.html" class="team-card reveal" data-group="ziaci"><div class="age">U14</div><div class="yr">Ročník 2012</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> 1. liga žiaci</span><span><b>Tréningy:</b> 3× týždenne</span></div></a>
+      <a href="kategoria-u13.html" class="team-card reveal" data-group="ziaci"><div class="age">U13</div><div class="yr">Ročník 2013</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> žiacka liga</span><span><b>Tréningy:</b> 3× týždenne</span></div></a>
+      <a href="kategoria-u12.html" class="team-card reveal" data-group="ziaci"><div class="age">U12</div><div class="yr">Ročník 2014</div><span class="cat">Žiaci</span><div class="tmeta"><span><b>Súťaž:</b> žiacka liga</span><span><b>Tréningy:</b> 2–3× týždenne</span></div></a>
+      <a href="kategoria-u11.html" class="team-card reveal" data-group="pripravky"><div class="age">U11</div><div class="yr">Ročník 2015</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> prípravkárska liga</span><span><b>Tréningy:</b> 2–3× týždenne</span></div></a>
+      <a href="kategoria.html" class="team-card reveal" data-group="pripravky"><div class="age">U10</div><div class="yr">Ročník 2016</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> prípravkárska liga</span><span><b>Tréningy:</b> 2× týždenne</span></div></a>
+      <a href="kategoria-u9.html" class="team-card reveal" data-group="pripravky"><div class="age">U9</div><div class="yr">Ročník 2017</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> mini liga</span><span><b>Tréningy:</b> 2× týždenne</span></div></a>
+      <a href="kategoria-u8.html" class="team-card reveal" data-group="pripravky"><div class="age">U8</div><div class="yr">Ročník 2018</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> mini liga</span><span><b>Tréningy:</b> 2× týždenne</span></div></a>
+      <a href="kategoria-u6-u7.html" class="team-card reveal" data-group="pripravky"><div class="age">U6–U7</div><div class="yr">Ročník 2019+</div><span class="cat">Prípravka</span><div class="tmeta"><span><b>Súťaž:</b> nábor / základy</span><span><b>Tréningy:</b> 2× týždenne</span></div></a>
     </div>
   </div>
 </section>
