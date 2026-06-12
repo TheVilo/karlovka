@@ -151,7 +151,7 @@ section{padding-block:clamp(56px,8vw,104px)}
   display: flex;
   align-items: center;
   /* Pridaná fotka na pozadie s tmavým filtrom pre čitateľnosť textu */
-  background: linear-gradient(rgba(21, 23, 28, 0.85), rgba(21, 23, 28, 0.85)), url('../15089925_2304_1080_30fps.mp4');
+  background: linear-gradient(rgba(21, 23, 28, 0.85), rgba(21, 23, 28, 0.85)), url('../karlovka-hero-image.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
